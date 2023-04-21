@@ -4,7 +4,7 @@
     "version": "1.0",
     "description": "Download GIFs from Twitter as MP4 files",
     "icons": {
-      "48": "icons/icon-48.png"
+      "48": "icon.png"
     },
     "permissions": ["contextMenus", "downloads", "tabs", "<all_urls>"],
     "background": {
@@ -25,7 +25,7 @@
     },
     "applications": {
       "gecko": {
-        "id": "yoink-meme@mozilla.org"
+        "id": "yoink@yoinkyoinkyoink"
       }
     }
   }
