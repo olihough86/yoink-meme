@@ -4,7 +4,7 @@
     "version": "1.0",
     "description": "Download GIFs from Twitter as MP4 files",
     "icons": {
-      "48": "icon.png"
+      "48": "icons/icon-48.png"
     },
     "permissions": ["contextMenus", "downloads", "tabs", "<all_urls>"],
     "background": {
