@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "Yoink Meme",
+    "version": "1.0",
+    "description": "Download GIFs from Twitter as MP4 files",
+    "icons": {
+      "48": "icon.png"
+    },
+    "permissions": ["contextMenus", "downloads", "tabs", "<all_urls>"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.twitter.com/*"],
+        "js": ["content-script.js"]
+      }
+    ],
+    "browser_action": {
+      "default_icon": {
+        "48": "icon.png"
+      },
+      "default_title": "Yoink Meme"
+    },
+    "applications": {
+      "gecko": {
+        "id": "yoink-meme@mozilla.org"
+      }
+    }
+  }
+  
